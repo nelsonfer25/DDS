@@ -1,0 +1,103 @@
+Administrador
+    Nombre 1
+    Nombre 2
+    Apellido 1
+    Apellido 2
+    Sexo
+    Tipo_documento
+    Numero_documento
+    celular
+    email
+    contraseña
+    Auth datos
+    Verificado
+AsistenteReclamacion
+    Nombre 1
+    Nombre 2
+    Apellido 1
+    Apellido 2
+    Sexo
+    Tipo_documento
+    Numero_documento
+    celular
+    email
+    contraseña
+    Auth datos
+    Verificado
+Cliente
+    Nombre 1
+    Nombre 2
+    Apellido 1
+    Apellido 2
+    Sexo
+    Tipo_documento
+    Numero_documento
+    celular
+    email
+    contraseña
+    Auth datos
+    Verificado
+Garaje
+    Lista_vehiculos
+vehiculo
+    Marca
+    modelo
+    referencia
+    VIN
+    Num_chasis
+    kilometraje
+    fecha_cambio_aceite
+    vin_asignado
+Direcciones
+     Nombre dirección 
+     Barrio 
+     Dirección
+     Departamento 
+     Ciudad 
+     Observación   
+Productos
+    codigo
+    Nombre
+    Referencia 
+    Descripcion
+    clasificacion
+    valor
+    cant_disponible
+    Imagen
+    estado
+Carrito de compras
+lista de deseo
+Pedido
+    codigo
+    cliente
+    Productos
+    cantidad
+    valor_envio
+    total
+    metodo_pago
+    direccion_envio
+    estado_pago
+    Fecha_entrega
+    guia_despacho
+    factura
+Reclamos
+    pedido
+    categoria
+    descripcion
+    adjunto
+    estado
+banners
+    URL
+    Texto
+    subtexto
+    texto_alternativo
+    fecha_Fin
+    Feha_publicación
+    Imagen
+cupones
+    Codigo
+    Clasificacion
+    cliente
+    Fecha_inicio
+    Fecha_fin
+    Estado
