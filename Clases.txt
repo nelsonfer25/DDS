@@ -10,7 +10,7 @@ Administrador
     email
     contraseña
     Auth datos
-    Verificado
+    Estado
 AsistenteReclamacion
     Nombre 1
     Nombre 2
@@ -23,7 +23,7 @@ AsistenteReclamacion
     email
     contraseña
     Auth datos
-    Verificado
+    Estado
 Cliente
     Nombre 1
     Nombre 2
@@ -38,7 +38,9 @@ Cliente
     Auth datos
     Verificado
 Garaje
-    Lista_vehiculos
+    agregarVehiculo()
+    verVehiculos()
+    eliminarVehiculos()
 vehiculo
     Marca
     modelo
@@ -47,7 +49,11 @@ vehiculo
     Num_chasis
     kilometraje
     fecha_cambio_aceite
-    vin_asignado
+    estado
+    actualizarVehiculo()
+    AprobarAsignacionVIN()
+    rechazarAsignacionVIN()
+    VerPendientesAsignar()
 Direcciones
      Nombre dirección 
      Barrio 
@@ -55,18 +61,41 @@ Direcciones
      Departamento 
      Ciudad 
      Observación   
+     crearDireccion()
+     eliminarDireccion()
+     actualizarDireccion()
+     verDirecciones()
 Productos
     codigo
     Nombre
     Referencia 
     Descripcion
-    clasificacion
+    Categoria
     valor
     cant_disponible
     Imagen
     estado
+    BuscarxCategoria()
+    BuscarxCodigo()
+    BuscarxNombre()
+    BuscarxEspecificacion()
+    verProducto()
+    VerListaProductos()
 Carrito de compras
+    ValorTotal
+    CantidadProductos
+    agregarProducto()
+    vaciarCarrito()
+    eliminarProducto()
+    verProductos()
+    realizarPedido()
+    aplicarCupon()
+    actualizarTotal()
 lista de deseo
+    agregarProducto()
+    vaciarLista()
+    eliminarProducto()
+    verProductos()
 Pedido
     codigo
     cliente
@@ -80,12 +109,27 @@ Pedido
     Fecha_entrega
     guia_despacho
     factura
+    modificarFacturacion()
+    cambiarDireccionDespacho()
+    pagoPSE()
+    pagoTC()
+    confirmarPago()
+    EnviarFactura()
+    descargarFactura()
+    registrarDespacho()
+    verPedidos()
+    cancelarPedido()
+    crearReclamo()
 Reclamos
     pedido
     categoria
     descripcion
     adjunto
     estado
+    verReclamos()
+    BuscarxEstado()
+    BuscarxCategoria()
+    responderReclamo()
 banners
     URL
     Texto
@@ -94,10 +138,23 @@ banners
     fecha_Fin
     Feha_publicación
     Imagen
+    crearBanner()
+    actualizarBanner()
+    eliminarBanner()
+    verBanner()
+    verListaBanners()
 cupones
     Codigo
     Clasificacion
     cliente
     Fecha_inicio
     Fecha_fin
+    valor
     Estado
+    crearCuponxEmail()
+    crearCuponxCodigo()
+    crearCuponxIdCliente()
+    actualizarCupon()
+    eliminarCupon()
+    verCupones()
+    importarCuponesXLS()
